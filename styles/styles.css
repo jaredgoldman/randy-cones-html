@@ -37,7 +37,7 @@ h2 {
   background-color: var(--orange);
   color: var(--light-orange);
   font-size: 1.75rem;
-  white-space: nowrap;
+  white-space: pre;
   overflow: hidden;
   margin-left: -1.5rem;
   padding-right: 1.5rem;
