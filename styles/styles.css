@@ -75,7 +75,8 @@ h2 {
   }
 }
 
-.link {
+.link,
+link:visited {
   color: white;
 }
 
