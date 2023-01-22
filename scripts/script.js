@@ -1,5 +1,5 @@
 const appendRepeatedText = (text, symbol, element, length = 20) => {
-  const repeatText = ` ${text} ${symbol} `;
+  const repeatText = `${text} ${symbol} `;
   const repeatedArray = Array(length).fill(repeatText);
   repeatedArray.forEach((text) => {
     const textNode = document.createElement('span');
