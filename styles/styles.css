@@ -104,7 +104,8 @@ h2 {
 
 .hero {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 26rem;
 }
@@ -273,4 +274,19 @@ h2 {
 
 .home-link {
   margin-bottom: 1rem;
+}
+
+/* Store  */
+
+.store-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.store {
+  margin: 3rem;
 }
