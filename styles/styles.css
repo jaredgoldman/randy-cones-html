@@ -180,6 +180,11 @@ link:visited {
   font-size: 4rem;
   margin: 0;
 }
+.hero-right_heading-2 > h2 {
+  color: white;
+  font-size: 3rem;
+  margin: 0;
+}
 
 @media only screen and (max-width: 800px) {
   .hero-container {
